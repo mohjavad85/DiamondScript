@@ -1,0 +1,5 @@
+method main|int, i| =>{
+    print int * i;
+};
+
+main|3,4|;

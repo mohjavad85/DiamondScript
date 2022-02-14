@@ -1,0 +1,19 @@
+navigation in|puts, gets| => {
+    puts = {fwrite};
+    gets = {fread};
+};
+
+navigation out|system| => {
+    system = {system};
+};
+
+var returnx;
+
+method fwrite|msg| =>{
+    println msg;
+};
+
+method fread|| =>{
+    system.sqrt|2,4|;
+    system.power|5,2|;
+};

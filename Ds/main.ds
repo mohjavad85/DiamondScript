@@ -1,0 +1,14 @@
+var return;
+method power|num, p| =>
+{
+    var i = 1;
+    var inNum = num;
+    while(i < p)
+    {
+        num = num * inNum;
+        i = i +1;
+    };
+    return = num;
+};
+power|2, 10|;
+println return;
